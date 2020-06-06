@@ -9,7 +9,7 @@ What things you need to install the software and how to install them
 ```
 * Node.js
 * CRA (Create React App)
-* Typescript
+* TypeScript
 * styled-components
 ```
 
