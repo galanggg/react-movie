@@ -3,8 +3,16 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Movies = styled.div`
-  padding: 5px 25px 10px 25px;
-  max-width: 25%;
+  display: grid;
+  grid-template-columns: 200px 100px;
+  grid-template-rows: 400px;
+  grid-gap: 25px;
+`
+
+const Item = styled.div`
+  display: grid;
+  align-self: center;
+  justify-self: center;
 `
 
 type Props = {
@@ -20,15 +28,15 @@ const Movie: React.FC<Props> = ({ movie }) => {
     movie.Poster === 'N/A' ? DEFAULT_PLACEHOLDER_IMAGE : movie.Poster
   return (
     <Movies>
-      <h2>{movie.Title}</h2>
-      <div>
+      <Item>
+        <h2>{movie.Title}</h2>
         <img
           width="200"
           alt={`title dari film : ${movie.Title}`}
           src={poster}
         />
-      </div>
-      <p>{movie.Year}</p>
+        <p>{movie.Year}</p>
+      </Item>
     </Movies>
   )
 }
