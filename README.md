@@ -27,15 +27,13 @@ npm install
 
 ## Built With
 
-* [styled-components](https://styled-components.com/) - for styling
-* [CRA](https://create-react-app.dev/) - Used to generate React App
-* [Typescript](https://www.typescriptlang.org/) - static type checkers
-
-
+- [styled-components](https://styled-components.com/) - for styling
+- [CRA](https://create-react-app.dev/) - Used to generate React App
+- [Typescript](https://www.typescriptlang.org/) - static type checkers
 
 ## Authors
 
-* **Galang Kerta** - [galanggg](https://github.com/galanggg)
+- **Galang Kerta** - [galanggg](https://github.com/galanggg)
 
 ## License
 
